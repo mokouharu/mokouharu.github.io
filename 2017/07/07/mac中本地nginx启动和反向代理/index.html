@@ -114,7 +114,9 @@ https 反向代理 本地启动的http服务
 
 启动后在浏览器中访问 localhost:81 , 如果出现">
 <meta property="og:image" content="https://mokouharu.io/img/nginx1.jpg">
-<meta property="og:updated_time" content="2017-07-07T06:42:51.000Z">
+<meta property="og:image" content="https://mokouharu.io/img/nginx2.jpg">
+<meta property="og:image" content="https://mokouharu.io/img/nginx3.jpg">
+<meta property="og:updated_time" content="2017-07-07T06:49:55.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="mac中本地nginx启动和反向代理">
 <meta name="twitter:description" content="nginx 的配置文件nginx.conf 路径是在：/usr/local/etc/nginx/
@@ -382,13 +384,13 @@ https 反向代理 本地启动的http服务
 </li>
 <li><p>访问某个需要https反向代理的项目， 以母婴项目为例</p>
 </li>
-<li><p>在项目中启动本地服务： npm run dev</p>
+<li><p>在项目中启动本地服务： npm run dev<br><img src="/img/nginx2.jpg" alt="image"></p>
 </li>
-<li><p>然后在浏览器中访问 母婴页面地址： <a href="https://localhost/Mzhuanzhuan/ZZMuying/index.html#/home-recommend?webview=zzn" target="_blank" rel="external">https://localhost/Mzhuanzhuan/ZZMuying/index.html#/home-recommend?webview=zzn</a></p>
+<li><p>然后在浏览器中访问 某个配置好的页面地址： <a href="https://localhost/Mzhuanzhuan/***/index.html#/home-recommend?webview=zzn" target="_blank" rel="external">https://localhost/Mzhuanzhuan/***/index.html#/home-recommend?webview=zzn</a></p>
 <ul>
 <li><p>为啥域名是localhost ? —— 是因为在nginx.conf 中配置的https 服务是 localhost</p>
 </li>
-<li><p>如果不想写域名为localhost，可以在host中代理 127.0.0.1  m.zhuanzhuan.58.com</p>
+<li><p>如果不想写域名为localhost，可以在host中代理 127.0.0.1  对应域名<br><img src="/img/nginx3.jpg" alt="image"></p>
 </li>
 </ul>
 </li>
